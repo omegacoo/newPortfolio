@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial rounded mt bold';
+}
+
+/* Header */
+.js-hero {
+    font-size: 20px;
+    text-align: center;
+
+    position: relative;
+    top: 100px;
+
+    padding: 10px;
+}
+
+.js-hero h1 {
+    margin-bottom: 10px;
+}
+
+/* Main */
+main {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.js-buttons {
+    width: 70px;
+    height: 70px;
+
+    border-radius: 15px;
+    border: none;
+}
