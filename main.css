@@ -11,7 +11,7 @@
     text-align: center;
 
     position: relative;
-    top: 100px;
+    top: 50px;
 
     padding: 10px;
 }
@@ -23,17 +23,35 @@
 /* Main */
 main {
     position: relative;
-    display: flex;
-    flex-direction: column;
+    width: 120px;
 
     margin-left: auto;
     margin-right: auto;
+    margin-top: 80px;
 }
 
 .js-buttons {
-    width: 70px;
-    height: 70px;
+    display: block;
+    width: 100px;
+    height: 100px;
 
     border-radius: 15px;
     border: none;
+
+    margin: 10px;
+    margin-bottom: 50px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+}
+
+.js-tech-buttons {
+    font-size: 10px;
+
+    width: 20px;
+    height: 20px;
+
+    margin: 5px;
 }
