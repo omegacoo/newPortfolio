@@ -5,15 +5,23 @@
     font-family: 'Arial rounded mt bold';
 }
 
+body {
+    background-color: lightgray;
+}
+
 /* Header */
 .js-hero {
     font-size: 20px;
     text-align: center;
+    width: 100vw;
+    margin-left: auto;
+    margin-right: auto;
 
     position: relative;
-    top: 50px;
 
     padding: 10px;
+
+    background-color: gray;
 }
 
 .js-hero h1 {
@@ -23,11 +31,17 @@
 /* Main */
 main {
     position: relative;
-    width: 120px;
+    width: 160px;
 
     margin-left: auto;
     margin-right: auto;
-    margin-top: 80px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+    display: flex;
+    flex-direction: column;
+
+    background-color: gray;
 }
 
 .js-buttons {
@@ -38,20 +52,73 @@ main {
     border-radius: 15px;
     border: none;
 
-    margin: 10px;
-    margin-bottom: 50px;
+    margin: 30px;
+
+    background-color: lightgray;
+
+    text-align: center;
+    line-height: 100px;
 }
 
 /* Footer */
 footer {
     text-align: center;
+    width: 100vw;
+    margin-left: auto;
+    margin-right: auto;
+
+    background-color: gray;
 }
 
 .js-tech-buttons {
-    font-size: 10px;
+    display: inline-block;
 
     width: 20px;
     height: 20px;
 
+    background-color: lightgray;
+
     margin: 5px;
+}
+
+/* Landscape */
+@media (min-width: 700px) {
+    .js-hero, main, footer {
+        width: 600px;
+    }
+
+    main {
+        flex-direction: row;
+        justify-content: center;
+
+        width: 600px;
+
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .js-buttons {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+}
+
+/* iPad */
+@media (min-width: 700px) and (min-height: 1000px) {
+    body {
+        padding: 12%;
+        padding-top: 20%;
+    }
+
+    main {
+        flex-direction: column;
+        width: 200px;
+    }
+}
+
+/* Desktop */
+@media (min-width: 1000px) and (min-height: 400px) {
+    body {
+        padding: 12%;
+    }
 }
