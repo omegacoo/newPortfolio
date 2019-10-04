@@ -54,7 +54,16 @@ function buildCurrentElement(source){           // Creating HTML based on STATE.
     }if(STATE.screen === "projects"){
         return `
         <div class="js-content js-content-window">
-            
+            <h3 class="js-content-window">Projects</h3>
+            <section role="first project">
+                <h4 class="js-content-window">Quiz App</h4>
+                <img  class="js-content-window" src="res/quiz-app.png">
+                <div class="js-content-window js-projects-window">
+                    Repo: <a target="_blank" class="js-content-window" href="https://github.com/omegacoo/quiz-app">code</a>
+                    Live: <a target="_blank" class="js-content-window" href="https://omegacoo.github.io/quiz-app/">app</a>
+                </div>
+                <p class="js-content-window">An app that walks the player through several quotes by famous philosophers, testing their knowledge.</p>
+            </section>
         </div>
         `
     }if(STATE.screen === "contact"){
@@ -65,9 +74,9 @@ function buildCurrentElement(source){           // Creating HTML based on STATE.
                 <p class="js-content-window">Reach out to me in any of the following ways:</p>
             </section>
             <section role="links" class="links js-content-window">
-                <p class="js-content-window">Email: <a class="js-content-window" href="bsumser@yahoo.com">bsumser@yahoo.com</a></p>
-                <p class="js-content-window">GitHub: <a class="js-content-window" href="https://github.com/omegacoo">Omegacoo</a></p>
-                <p class="js-content-window">LinkedIn: <a class="js-content-window" href="https://www.linkedin.com/in/benjamin-sumser-863a3a182/">Ben Sumser</a></p>
+                <p class="js-content-window">Email: <a target="_blank" class="js-content-window" href="bsumser@yahoo.com">bsumser@yahoo.com</a></p>
+                <p class="js-content-window">GitHub: <a target="_blank" class="js-content-window" href="https://github.com/omegacoo">Omegacoo</a></p>
+                <p class="js-content-window">LinkedIn: <a target="_blank" class="js-content-window" href="https://www.linkedin.com/in/benjamin-sumser-863a3a182/">Ben Sumser</a></p>
             </section>
         </div>
         `
