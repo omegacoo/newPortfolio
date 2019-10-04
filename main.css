@@ -7,7 +7,8 @@
 }
 
 body {
-    background-color: rgb(92, 154, 179);
+    background-color: white;
+    overflow: hidden;
 }
 
 /* Header */
@@ -27,7 +28,8 @@ body {
 }
 
 .js-hero h1 {
-    margin-bottom: 8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 /* Main */
@@ -37,8 +39,8 @@ main {
 
     margin-left: auto;
     margin-right: auto;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin-top: 60px;
+    margin-bottom: 60px;
 
     display: flex;
     flex-direction: column;
@@ -52,20 +54,19 @@ main {
     height: 100px;
 
     border-radius: 15px;
-    border: 1px solid black;
+    border: 2px solid black;
 
     margin: 30px;
     margin-left: auto;
     margin-right: auto;
 
-    background-color: rgba(0, 0, 255, 0.568);
+    background-color: white;
 
     font-weight: bold;
     font-size: 16px;
 }
 
 .js-buttons:hover {
-    color: white;
     box-shadow: 5px 5px black;
     cursor: pointer;
 }
@@ -79,7 +80,7 @@ main {
 
 .js-content {
     display: block;
-    width: 300px;
+    width: 340px;
     height: 420px;
 
     border-radius: 15px;
@@ -89,10 +90,43 @@ main {
     margin-left: auto;
     margin-right: auto;
 
-    background-color: rgba(0, 0, 255, 0.568);
+    background-color: white;
 
-    font-weight: bold;
+    overflow: auto;
+}
+
+.js-content:hover {
+    box-shadow: 5px 5px black;
+}
+
+.js-content h3 {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.js-content p {
     font-size: 16px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.js-content .heading {
+    text-align: center;
+}
+
+.js-content .email {
+    margin: 20px;
+    margin-top: 50px;
+}
+
+.js-content .links {
+    margin-top: 100px;
+    margin-left: 40px;
+}
+
+.js-content a {
+    text-decoration: none;
 }
 
 /* Footer */
@@ -114,21 +148,30 @@ footer {
     margin: 5px;
 }
 
-/* iPhone */
+/* iPhone Portrait */
 @media (max-height: 700px) {
     main {
-        margin-top: 8px;
-        margin-bottom: 8px;
+        margin-top: 2px;
+        margin-bottom: 2px;
     }
 }
 
+/* iPhone Landscape */
 @media (max-height: 400px) and (max-width: 700px) {
     main {
         flex-direction: row;
         width: 450px;
 
-        margin-top: 23px;
-        margin-bottom: 23px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .js-content {
+        width: 600px;
+        height: 250px;
+
+        margin-top: -70px;
+        margin-bottom: -15px;
     }
 }
 
@@ -152,6 +195,18 @@ footer {
         margin-left: 50px;
         margin-right: 50px;
     }
+
+    .js-content {
+        display: block;
+        width: 700px;
+        height: 300px;
+
+        margin-top: -55px;
+    }
+
+    .js-content h3 {
+        font-size: 24px;
+    }
 }
 
 /* iPad */
@@ -163,7 +218,11 @@ footer {
 
     main {
         flex-direction: column;
-        width: 200px;
+    }
+
+    .js-content {
+        display: block;
+        width: 500px;
     }
 }
 
