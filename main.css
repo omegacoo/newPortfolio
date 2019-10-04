@@ -89,10 +89,8 @@ footer {
 .js-tech-buttons {
     display: inline-block;
 
-    width: 20px;
-    height: 20px;
-
-    background-color: lightgray;
+    width: 30px;
+    height: 30px;
 
     margin: 5px;
 }
