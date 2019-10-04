@@ -33,12 +33,12 @@ body {
 /* Main */
 main {
     position: relative;
-    width: 160px;
+    width: 100%;
 
     margin-left: auto;
     margin-right: auto;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 40px;
+    margin-bottom: 40px;
 
     display: flex;
     flex-direction: column;
@@ -52,15 +52,16 @@ main {
     height: 100px;
 
     border-radius: 15px;
-    border: none;
+    border: 1px solid black;
 
     margin: 30px;
+    margin-left: auto;
+    margin-right: auto;
 
     background-color: rgba(0, 0, 255, 0.568);
 
-    text-align: center;
-    line-height: 100px;
     font-weight: bold;
+    font-size: 16px;
 }
 
 .js-buttons:hover {
@@ -74,6 +75,24 @@ main {
     position: relative;
     top: 5px;
     left: 5px;
+}
+
+.js-content {
+    display: block;
+    width: 300px;
+    height: 420px;
+
+    border-radius: 15px;
+    border: 2px solid black;
+
+    margin: 30px;
+    margin-left: auto;
+    margin-right: auto;
+
+    background-color: rgba(0, 0, 255, 0.568);
+
+    font-weight: bold;
+    font-size: 16px;
 }
 
 /* Footer */
@@ -98,8 +117,8 @@ footer {
 /* iPhone */
 @media (max-height: 700px) {
     main {
-        margin-top: 10px;
-        margin-bottom: 10px;
+        margin-top: 8px;
+        margin-bottom: 8px;
     }
 }
 
@@ -108,8 +127,8 @@ footer {
         flex-direction: row;
         width: 450px;
 
-        margin-top: 25px;
-        margin-bottom: 25px;
+        margin-top: 23px;
+        margin-bottom: 23px;
     }
 }
 
@@ -125,8 +144,8 @@ footer {
 
         width: 600px;
 
-        margin-top: 20px;
-        margin-bottom: 20px;
+        margin-top: 15px;
+        margin-bottom: 15px;
     }
 
     .js-buttons {
