@@ -83,7 +83,7 @@ function buildCurrentElement(source){           // Creating HTML based on STATE.
                 <p class="js-content-window">Reach out to me in any of the following ways:</p>
             </section>
             <section role="links" class="links js-content-window">
-                <p class="js-content-window">Email: <a target="_blank" class="js-content-window" href="bsumser@yahoo.com">bsumser@yahoo.com</a></p>
+                <p class="js-content-window">Email: <a target="_blank" class="js-content-window" href="mailto: bsumser@yahoo.com">bsumser@yahoo.com</a></p>
                 <p class="js-content-window">GitHub: <a target="_blank" class="js-content-window" href="https://github.com/omegacoo">Omegacoo</a></p>
                 <p class="js-content-window">LinkedIn: <a target="_blank" class="js-content-window" href="https://www.linkedin.com/in/benjamin-sumser-863a3a182/">Ben Sumser</a></p>
             </section>
