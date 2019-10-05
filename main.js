@@ -44,6 +44,7 @@ function buildCurrentElement(source){           // Creating HTML based on STATE.
     }if(STATE.screen === "bio"){
         return `
         <div class="js-content js-content-window">
+            <span id="close-button">x</span>
             <h3 class="js-content-window">Bio</h3><br>
             <p class="js-content-window">&emsp;I am an extremely passionate programmer. I have a BA in Philosophy and have always enjoyed the logical aspects of coding.</p><br>
             <p class="js-content-window">&emsp;I have been in the Army for 17 years and am a Company Commander. I have great personal discipline, integrity, and the ability to work with people from all walks of life, without conflict.</p><br>
@@ -54,6 +55,7 @@ function buildCurrentElement(source){           // Creating HTML based on STATE.
     }if(STATE.screen === "projects"){
         return `
         <div class="js-content js-content-window">
+        <span id="close-button">x</span>
             <h3 class="js-content-window">Projects</h3>
             <section role="first project">
                 <h4 class="js-content-window">Quiz App</h4>
@@ -75,6 +77,7 @@ function buildCurrentElement(source){           // Creating HTML based on STATE.
     }if(STATE.screen === "contact"){
         return `
         <div class="js-content js-content-window">
+        <span id="close-button">x</span>
             <section class="heading js-content-window" role="heading">
                 <h3 class="js-content-window">Contact</h3>
                 <p class="js-content-window">Reach out to me in any of the following ways:</p>

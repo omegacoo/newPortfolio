@@ -95,6 +95,18 @@ main {
     overflow: auto;
 }
 
+#close-button {
+    float: right;
+    margin-right: 10px;
+}
+
+#close-button:hover {
+    position: relative;
+    top: 1px;
+    left: 1px;
+    cursor: pointer;
+}
+
 .js-content:hover {
     box-shadow: 5px 5px black;
 }
@@ -277,6 +289,10 @@ footer {
     .js-content p {
         padding-left: 35px;
         padding-right: 35px;
+    }
+
+    #close-button {
+        margin-top: 3px;
     }
 }
 
