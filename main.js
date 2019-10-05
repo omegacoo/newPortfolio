@@ -34,7 +34,7 @@ function backToLanding(){
     });
 }
 
-function buildCurrentElement(source){           // Creating HTML based on STATE.screen
+function buildCurrentElement(){           // Creating HTML based on STATE.screen
     if(STATE.screen === "landing"){
         return `
         <button class="js-buttons js-content-window" id="bio">Bio</button>
