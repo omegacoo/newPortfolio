@@ -108,7 +108,7 @@ main {
 }
 
 .js-content p {
-    font-size: 16px;
+    font-size: 14px;
     padding-right: 10px;
     padding-left: 10px;
 }
@@ -149,8 +149,18 @@ main {
     margin-right: auto;
 }
 
-.js-content img:hover {
-    text-shadow: 3px 3px black;
+.used-techs {
+    text-align: center;
+    margin-top: 2px;
+}
+
+.js-content .js-project-techs {
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+
+    border: none;
+    border-radius: 0;
 }
 
 .js-content div {
@@ -175,6 +185,11 @@ footer {
     height: 30px;
 
     margin: 5px;
+}
+
+.js-tech-buttons:hover {
+    border: 1px solid black;
+    border-radius: 5px;
 }
 
 /* iPhone Portrait */

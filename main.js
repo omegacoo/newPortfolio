@@ -58,11 +58,17 @@ function buildCurrentElement(source){           // Creating HTML based on STATE.
             <section role="first project">
                 <h4 class="js-content-window">Quiz App</h4>
                 <img  class="js-content-window" src="res/quiz-app.png">
+                <section class="used-techs">
+                    <img class="js-project-techs" src="res/html.png" alt="html">
+                    <img class="js-project-techs" src="res/css.png" alt="css">
+                    <img class="js-project-techs" src="res/js.png" alt="javascript">
+                    <img class="js-project-techs" src="res/jquery.png" alt="jquery">
+                </section>
                 <div class="js-content-window js-projects-window">
                     Repo: <a target="_blank" class="js-content-window" href="https://github.com/omegacoo/quiz-app">code</a>
                     Live: <a target="_blank" class="js-content-window" href="https://omegacoo.github.io/quiz-app/">app</a>
                 </div>
-                <p class="js-content-window">An app that walks the player through several quotes by famous philosophers, testing their knowledge.</p>
+                <p class="js-content-window">&emsp;An app that walks the player through several quotes by famous philosophers, testing their knowledge. Scalability is simple and all done in one place.</p>
             </section>
         </div>
         `
