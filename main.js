@@ -66,7 +66,7 @@ function buildCurrentElement(source){           // Creating HTML based on STATE.
                 </section>
                 <div class="js-content-window js-projects-window">
                     Repo: <a target="_blank" class="js-content-window" href="https://github.com/omegacoo/quiz-app">code</a>
-                    Live: <a target="_blank" class="js-content-window" href="https://omegacoo.github.io/quiz-app/">app</a>
+                    Live: <a target="_blank" class="js-content-window" href="https://omegacoo.github.io/quiz-app">app</a>
                 </div>
                 <p class="js-content-window">&emsp;An app that walks the player through several quotes by famous philosophers, testing their knowledge. Scalability is simple and all done in one place.</p>
             </section>
