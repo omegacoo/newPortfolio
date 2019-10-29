@@ -72,6 +72,22 @@ function buildCurrentElement(){           // Creating HTML based on STATE.screen
                 </div>
                 <p class="js-content-window">&emsp;An app that walks the player through several quotes by famous philosophers, testing their knowledge. Scalability is simple and all done in one place.</p>
             </section>
+            <div class="divider"></div>
+            <section role="second project">
+                <h4 class="js-content-window">RepMe!</h4>
+                <img  class="js-content-window" src="res/rep_card.png">
+                <section class="used-techs">
+                    <img class="js-project-techs" src="res/html.png" alt="html">
+                    <img class="js-project-techs" src="res/css.png" alt="css">
+                    <img class="js-project-techs" src="res/js.png" alt="javascript">
+                    <img class="js-project-techs" src="res/jquery.png" alt="jquery">
+                </section>
+                <div class="js-content-window js-projects-window">
+                    Repo: <a target="_blank" class="js-content-window" href="https://github.com/omegacoo/repme">code</a>
+                    Live: <a target="_blank" class="js-content-window" href="https://omegacoo.github.io/repme">app</a>
+                </div>
+                <p class="js-content-window">&emsp;An app which enables the PEOPLE to find and communicate with all their elected officials!</p>
+            </section>
         </div>
         `
     }if(STATE.screen === "contact"){
