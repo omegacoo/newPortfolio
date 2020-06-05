@@ -57,6 +57,7 @@ function buildCurrentElement(){           // Creating HTML based on STATE.screen
         <div class="js-content js-content-window">
         <span id="close-button">x</span>
             <h3 class="js-content-window">Projects</h3>
+            
             <section role="first project">
                 <h4 class="js-content-window">Pantry Buddy</h4>
                 <img  class="js-content-window" src="res/recipes.png">
@@ -76,7 +77,28 @@ function buildCurrentElement(){           // Creating HTML based on STATE.screen
                 <p class="js-content-window">&emsp;An app which allows the user to select ingredients they have on hand and returns a list of recipes which they can currently make.</p>
             </section>
             <div class="divider"></div>
+            
             <section role="second project">
+                <h4 class="js-content-window">Indie Corner</h4>
+                <img  class="js-content-window" src="res/indie-corner.png">
+                <section class="used-techs">
+                    <img class="js-project-techs" src="res/html.png" alt="html">
+                    <img class="js-project-techs" src="res/css.png" alt="css">
+                    <img class="js-project-techs" src="res/js.png" alt="javascript">
+                    <img class="js-project-techs" src="res/node.png" alt="node">
+                    <img class="js-project-techs" src="res/react.png" alt="react">
+                    <img class="js-project-techs" src="res/postgresql.png" alt="postgresql">
+                </section>
+                <div class="js-content-window js-projects-window">
+                    Front-end Repo: <a target="_blank" class="js-content-window" href="https://github.com/omegacoo/indie_corner_client">code</a> |
+                    Back-end Repo: <a target="_blank" class="js-content-window" href="https://github.com/omegacoo/indie_corner_server">code</a> |
+                    Live: <a target="_blank" class="js-content-window" href="https://indie-corner-client.now.sh/">app</a>
+                </div>
+                <p class="js-content-window">&emsp;A simple forum for everything Indie Gaming related!</p>
+            </section>
+            <div class="divider"></div>
+            
+            <section role="third project">
                 <h4 class="js-content-window">Represent Me!</h4>
                 <img  class="js-content-window" src="res/rep_card.png">
                 <section class="used-techs">
@@ -92,7 +114,8 @@ function buildCurrentElement(){           // Creating HTML based on STATE.screen
                 <p class="js-content-window">&emsp;An app which enables the PEOPLE to find and communicate with all their elected officials!</p>
             </section>
             <div class="divider"></div>
-            <section role="third project">
+            
+            <section role="fourth project">
                 <h4 class="js-content-window">Quiz App</h4>
                 <img  class="js-content-window" src="res/quiz-app.png">
                 <section class="used-techs">

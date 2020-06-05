@@ -82,7 +82,7 @@ main {
     height: 420px;
 
     border-radius: 15px;
-    border: 2px solid black;
+    border: 3px solid black;
 
     margin: 30px;
     margin-left: auto;
@@ -90,9 +90,21 @@ main {
 
     background-color: white;
 
-    overflow: hidden;
     overflow-x: hidden;
     overflow-y: auto;
+}
+
+.js-content::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+.js-content::-webkit-scrollbar:vertical {
+    width: 10px;
+}
+
+.js-content::-webkit-scrollbar-thumb {
+    background-color: black;
+    border-radius: 15px;
 }
 
 #close-button {
